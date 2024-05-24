@@ -18,7 +18,7 @@ sites:
     check: "tcp-ping"
 
 status-website:
-  baseUrl: /upptime
+  baseUrl: /
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Daniel Broderick
   introTitle: "Welcome to my website."
