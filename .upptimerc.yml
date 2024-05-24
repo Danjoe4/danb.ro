@@ -14,11 +14,11 @@ sites:
     url: torrent-stream.daniel-broderick.com
   - name: Minecraft Server
     url: minecraft.daniel-broderick.com
-    port: 25565
+    port: 25565 # routed via https://tcpshield.com/
     check: "tcp-ping"
 
 status-website:
-  baseUrl: /
+  cname: daniel-broderick.com
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Daniel Broderick
   introTitle: "Welcome to my website."
