@@ -1,36 +1,30 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Danjoe4
+repo: upptime-homepage # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Server Resources Monitor
+    url: glances.daniel-broderick.com
+  - name: Vault Application Pitch Page
+    url: vaultqr-app.daniel-broderick.com
+  - name: Vault QR Code Generator
+    url: vaultqr-generate.daniel-broderick.com
+  - name: Coder Remote Dev Environments
+    url: coder.daniel-broderick.com
+  - name: Torrent Streaming Server
+    url: torrent-stream.daniel-broderick.com
+  - name: Minecraft Server
+    url: minecraft.daniel-broderick.com
+    port: 25565
     check: "tcp-ping"
-    ipv6: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  baseUrl: /uptime-homepage
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Daniel Broderick
+  introTitle: "Welcome to my website."
+  introMessage: Instead of a generic resume site which would only serve to replicate [my LinkedIn](https://www.linkedin.com/in/daniel-broderick-4j4/), this site is dedicated to tracking all my services, servers, and projects. Feel free to take a look around. Send an email to <roles@daniel-broderick.com> if you'd like to offer me a job; open to full-time, contract, or freelance opportunities.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
