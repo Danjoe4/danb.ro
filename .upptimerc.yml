@@ -20,8 +20,8 @@ sites:
 
 status-website:
   cname: daniel-broderick.com
-  logoUrl: https://raw.githubusercontent.com/$OWNER/upptime/master/assets/android-chrome-512x512.png
-  favicon: https://raw.githubusercontent.com/$OWNER/upptime/master/assets/favicon-32x32.png
+  logoUrl: https://raw.githubusercontent.com/Danjoe4/upptime/master/assets/android-chrome-512x512.png
+  favicon: https://raw.githubusercontent.com/Danjoe4/upptime/master/assets/favicon-32x32.png
   name: Daniel Broderick
   introTitle: "Welcome to my website."
   introMessage: >
