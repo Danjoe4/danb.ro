@@ -14,7 +14,7 @@ sites:
   - name: Torrent Streaming Server
     url: https://torrent-stream.daniel-broderick.com
   - name: Minecraft Server
-    url: https://minecraft.daniel-broderick.com
+    url: minecraft.daniel-broderick.com
     port: 25565 # routed via https://tcpshield.com/
     check: "tcp-ping"
 
