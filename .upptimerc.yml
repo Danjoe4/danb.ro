@@ -19,9 +19,7 @@ sites:
     check: "tcp-ping"
 
 status-website:
-  cname: 
-  scripts:
-    - src: https://$DOMAIN/main.js
+  cname: daniel-broderick.com
   logoUrl: https://raw.githubusercontent.com/$OWNER/upptime/master/assets/android-chrome-512x512.png
   favicon: https://raw.githubusercontent.com/$OWNER/upptime/master/assets/favicon-32x32.png
   name: Daniel Broderick
