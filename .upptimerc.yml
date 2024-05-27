@@ -22,7 +22,7 @@ status-website:
   cname: 
   scripts:
     - src: https://$DOMAIN/main.js
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/Danjoe4/upptime/master/assets/name_logo.svg
   name: Daniel Broderick
   introTitle: "Welcome to my website."
   introMessage: >
