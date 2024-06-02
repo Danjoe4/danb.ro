@@ -28,7 +28,8 @@ status-website:
   introTitle: "Welcome to my website."
   introMessage: >
     Instead of a generic resume site which would only serve to replicate [my LinkedIn](https://www.linkedin.com/in/daniel-broderick-4j4/), 
-    this site is dedicated to tracking all my services, servers, and projects. Feel free to take a look around. Send an email to [roles@daniel-broderick.com](mailto:roles@daniel-broderick.com) 
+    this site is dedicated to tracking all my services, servers, and projects. Most of which are self hosted on [this machine](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q).
+    Feel free to take a look around. Send an email to [roles@daniel-broderick.com](mailto:roles@daniel-broderick.com) 
     if you'd like to offer me a job; open to full-time, contract, or freelance opportunities.
   navbar:
     - title: Status
