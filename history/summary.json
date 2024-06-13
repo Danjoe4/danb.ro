@@ -107,18 +107,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/torrent-stream.daniel-broderick.com.ico",
     "slug": "torrent-streaming-server",
     "status": "up",
-    "uptime": "99.56%",
-    "uptimeDay": "99.34%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.56%",
+    "uptime": "99.59%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.59%",
     "time": 223,
     "timeDay": 207,
     "timeWeek": 215,
     "timeMonth": 223,
     "timeYear": 223,
     "dailyMinutesDown": {
-      "2024-06-12": 9,
       "2024-05-30": 29,
       "2024-05-29": 89
     }
