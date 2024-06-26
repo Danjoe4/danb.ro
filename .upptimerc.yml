@@ -47,7 +47,7 @@ status-website:
       "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com"
     };
 
-    window.addEventListener("load", (event) => {
+    window.onload = function()  {
       const anchors = document.querySelectorAll('a');
       anchors.forEach(anchor => {
         const href = anchor.getAttribute('href');
