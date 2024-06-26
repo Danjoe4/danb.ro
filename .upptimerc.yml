@@ -37,7 +37,7 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER
   
-  js: >
+  js: |
   // yes I tried to do this with yaml variables but it was too much of a pain
   const urlMapping = {
     "https://daniel-broderick.com/history/server-resources-monitor": "https://glances.daniel-broderick.com/",
