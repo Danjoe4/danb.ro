@@ -37,7 +37,9 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER
   
-  js: |
+  customHeadHtml: >
+    <script>
+    // yes I tried to do this with yaml variables but it was too much of a pain
     const urlMapping = {
       "https://daniel-broderick.com/history/server-resources-monitor": "https://glances.daniel-broderick.com/",
       "https://daniel-broderick.com/history/bioinformatics-file-converter": "https://bioconvert.daniel-broderick.com/",
@@ -47,12 +49,11 @@ status-website:
       "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com"
     };
 
-    window.onload = function()  {
-      const anchors = document.querySelectorAll('a');
-      anchors.forEach(anchor => {
-        const href = anchor.getAttribute('href');
-        if (href && urlMapping[href]) {
-          anchor.setAttribute('href', urlMapping[href]);
-        }
-      });
-    };
+    // Get the current URL, see if it matches any key in the URL mapping, and redirect if it does
+    const currentUrl = window.location.href;
+    if (urlMapping.hasOwnProperty(currentUrl)) {
+      window.location.replace(urlMapping[currentUrl]);
+    }
+    </script>
+
+
