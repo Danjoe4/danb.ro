@@ -55,4 +55,4 @@ status-website:
           anchor.setAttribute('href', urlMapping[href]);
         }
       });
-    });
+    };
