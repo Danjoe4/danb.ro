@@ -37,7 +37,8 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER
   
-  js: >
+  customHeadHtml: >
+  <script>
   // yes I tried to do this with yaml variables but it was too much of a pain
   const urlMapping = {
     "https://daniel-broderick.com/history/server-resources-monitor": "https://glances.daniel-broderick.com/",
@@ -48,7 +49,7 @@ status-website:
     "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com"
   };
 
-  document.addEventListener("DOMContentLoaded", function(){
+  document.addEventListener("load", function(){
     const anchors = document.querySelectorAll('a');
     const matchingHrefs = [];
     anchors.forEach(anchor => {
@@ -58,3 +59,4 @@ status-website:
         }
     });
   });
+  </script>
