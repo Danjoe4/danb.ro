@@ -9,6 +9,10 @@ sites:
     url: https://bioconvert.daniel-broderick.com
   - name: Vault Application Pitch Page
     url: https://vaultqr-app.daniel-broderick.com
+  - name: Fyxia, an AI-powered bug-checker by Caleb Sacks
+    url: https://bug.fyxia.dev/api/v1/health
+  - name: Fyxia auth
+    url: https://auth.fyxia.dev/admin
   - name: Vault QR Code Generator
     url: https://vaultqr-generate.daniel-broderick.com
   - name: Coder Remote Dev Environments
@@ -36,6 +40,8 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER
+    - title: notes
+      href: /notes
   
   # yes I tried to do this with yaml variables but it was too much of a pain
   js: >
@@ -45,7 +51,9 @@ status-website:
       "https://daniel-broderick.com/history/vault-application-pitch-page": "https://vaultqr-app.daniel-broderick.com",
       "https://daniel-broderick.com/history/vault-qr-code-generator": "https://vaultqr-generate.daniel-broderick.com",
       "https://daniel-broderick.com/history/coder-remote-dev-environments": "https://coder.daniel-broderick.com",
-      "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com"
+      "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com",
+      "https://daniel-broderick.com/history/Fyxia%2C-an-AI-powered-bug-checker-by-Caleb-Sacks" : "https://marketplace.visualstudio.com/items?itemName=fyxia.fyxia",
+      "https://daniel-broderick.com/history/Fyxia-auth" : "https://auth.fyxia.dev/admin"
     };
 
     setInterval( function(){
