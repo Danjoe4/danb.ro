@@ -9,12 +9,12 @@ sites:
     url: https://bioconvert.daniel-broderick.com
   - name: Vault Application Pitch Page
     url: https://vaultqr-app.daniel-broderick.com
+  - name: Vault QR Code Generator
+    url: https://vaultqr-generate.daniel-broderick.com
   - name: Fyxia, an AI-powered bug-checker by Caleb Sacks
     url: https://bug.fyxia.dev/api/v1/health
   - name: Fyxia auth
     url: https://auth.fyxia.dev/admin
-  - name: Vault QR Code Generator
-    url: https://vaultqr-generate.daniel-broderick.com
   - name: Coder Remote Dev Environments
     url: https://coder.daniel-broderick.com
   - name: Torrent Streaming Server
@@ -52,8 +52,8 @@ status-website:
       "https://daniel-broderick.com/history/vault-qr-code-generator": "https://vaultqr-generate.daniel-broderick.com",
       "https://daniel-broderick.com/history/coder-remote-dev-environments": "https://coder.daniel-broderick.com",
       "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com",
-      "https://daniel-broderick.com/history/Fyxia%2C-an-AI-powered-bug-checker-by-Caleb-Sacks" : "https://marketplace.visualstudio.com/items?itemName=fyxia.fyxia",
-      "https://daniel-broderick.com/history/Fyxia-auth" : "https://auth.fyxia.dev/admin"
+      "https://daniel-broderick.com/history/fyxia-an-ai-powered-bug-checker-by-caleb-sacks" : "https://marketplace.visualstudio.com/items?itemName=fyxia.fyxia",
+      "https://daniel-broderick.com/history/fyxia-auth" : "https://auth.fyxia.dev/admin"
     };
 
     setInterval( function(){
