@@ -40,8 +40,6 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER
-    - title: notes
-      href: /notes
   
   # yes I tried to do this with yaml variables but it was too much of a pain
   js: >
