@@ -43,18 +43,19 @@
     "url": "https://vaultqr-app.daniel-broderick.com",
     "icon": "https://icons.duckduckgo.com/ip3/vaultqr-app.daniel-broderick.com.ico",
     "slug": "vault-application-pitch-page",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.91%",
     "time": 556,
-    "timeDay": 520,
+    "timeDay": 556,
     "timeWeek": 595,
-    "timeMonth": 638,
+    "timeMonth": 637,
     "timeYear": 556,
     "dailyMinutesDown": {
+      "2024-08-21": 0,
       "2024-05-30": 29,
       "2024-05-29": 89
     }
