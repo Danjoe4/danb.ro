@@ -1,7 +1,7 @@
 url: https://vaultqr-app.daniel-broderick.com
-status: up
-code: 200
-responseTime: 7256
-lastUpdated: 2024-09-28T00:39:42.325Z
+status: down
+code: 502
+responseTime: 16003
+lastUpdated: 2024-09-28T05:49:39.678Z
 startTime: 2024-05-24T00:56:06.886Z
 generator: Upptime <https://github.com/upptime/upptime>
