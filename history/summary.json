@@ -103,19 +103,19 @@
     "url": "https://bug.fyxia.dev/api/v1/health",
     "icon": "https://icons.duckduckgo.com/ip3/bug.fyxia.dev.ico",
     "slug": "fyxia-an-ai-powered-bug-checker-by-caleb-sacks",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.45%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
     "time": 509,
-    "timeDay": 0,
-    "timeWeek": 543,
-    "timeMonth": 506,
+    "timeDay": 407,
+    "timeWeek": 524,
+    "timeMonth": 502,
     "timeYear": 509,
     "dailyMinutesDown": {
-      "2025-01-28": 1
+      "2025-01-28": 8
     }
   },
   {
@@ -123,19 +123,19 @@
     "url": "https://auth.fyxia.dev/admin",
     "icon": "https://icons.duckduckgo.com/ip3/auth.fyxia.dev.ico",
     "slug": "fyxia-auth",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.49%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 955,
-    "timeDay": 0,
-    "timeWeek": 961,
-    "timeMonth": 945,
-    "timeYear": 955,
+    "time": 954,
+    "timeDay": 799,
+    "timeWeek": 938,
+    "timeMonth": 940,
+    "timeYear": 954,
     "dailyMinutesDown": {
-      "2025-01-28": 0
+      "2025-01-28": 7
     }
   },
   {
@@ -155,7 +155,7 @@
     "timeMonth": 239,
     "timeYear": 280,
     "dailyMinutesDown": {
-      "2025-01-28": 1383,
+      "2025-01-28": 1390,
       "2025-01-27": 1440,
       "2025-01-26": 1440,
       "2025-01-25": 1440,
