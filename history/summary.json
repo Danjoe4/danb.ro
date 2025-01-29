@@ -105,18 +105,16 @@
     "slug": "fyxia-an-ai-powered-bug-checker-by-caleb-sacks",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.45%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 509,
     "timeDay": 407,
     "timeWeek": 524,
     "timeMonth": 502,
     "timeYear": 509,
-    "dailyMinutesDown": {
-      "2025-01-28": 8
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Fyxia auth",
@@ -125,18 +123,16 @@
     "slug": "fyxia-auth",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.49%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 954,
     "timeDay": 799,
     "timeWeek": 938,
     "timeMonth": 940,
     "timeYear": 954,
-    "dailyMinutesDown": {
-      "2025-01-28": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Coder Remote Dev Environments",
@@ -144,18 +140,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/coder.daniel-broderick.com.ico",
     "slug": "coder-remote-dev-environments",
     "status": "down",
-    "uptime": "59.60%",
+    "uptime": "59.59%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "59.60%",
+    "uptimeYear": "59.59%",
     "time": 280,
     "timeDay": 246,
     "timeWeek": 256,
     "timeMonth": 239,
     "timeYear": 280,
     "dailyMinutesDown": {
-      "2025-01-28": 1390,
+      "2025-01-29": 18,
+      "2025-01-28": 1440,
       "2025-01-27": 1440,
       "2025-01-26": 1440,
       "2025-01-25": 1440,
