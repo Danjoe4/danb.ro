@@ -1,31 +1,31 @@
 owner: Danjoe4
-repo: upptime 
-domain: daniel-broderick.com
+repo: upptime
+domain: danb.ro
 
 sites:
   - name: Server Resources Monitor
-    url: https://glances.daniel-broderick.com
+    url: https://glances.danb.ro
   - name: Bioinformatics file converter
-    url: https://bioconvert.daniel-broderick.com
+    url: https://bioconvert.danb.ro
   - name: Vault Application Pitch Page
-    url: https://vaultqr-app.daniel-broderick.com
+    url: https://vaultqr-app.danb.ro
   - name: Vault QR Code Generator
-    url: https://vaultqr-generate.daniel-broderick.com
+    url: https://vaultqr-generate.danb.ro
   - name: Fyxia, an AI-powered bug-checker by Caleb Sacks
     url: https://bug.fyxia.dev/api/v1/health
   - name: Fyxia auth
     url: https://auth.fyxia.dev/admin
   - name: Coder Remote Dev Environments
-    url: https://coder.daniel-broderick.com
+    url: https://coder.danb.ro
   - name: Torrent Streaming Server
-    url: https://torrent-stream.daniel-broderick.com
+    url: https://torrent-stream.danb.ro
   - name: Minecraft Server
-    url: minecraft.daniel-broderick.com
-    port: 25565 # routed via https://tcpshield.com/ 
+    url: minecraft.danb.ro
+    port: 25565 # routed via https://tcpshield.com/
     check: "tcp-ping"
 
 status-website:
-  cname: daniel-broderick.com
+  cname: danb.ro
   logoUrl: https://raw.githubusercontent.com/Danjoe4/upptime/master/assets/android-chrome-512x512.png
   favicon: https://raw.githubusercontent.com/Danjoe4/upptime/master/assets/favicon-32x32.png
   name: Daniel Broderick
@@ -33,25 +33,25 @@ status-website:
   introMessage: >
     Instead of a generic resume site which would only serve to replicate [my LinkedIn](https://www.linkedin.com/in/d-brod/), 
     this site is dedicated to tracking all my services, servers, and projects. Most of which are self hosted on [this machine](https://www.lenovo.com/us/en/p/desktops/thinkcentre/m-series-tiny/thinkcentre-m720q/11tc1mtm72q).
-    Feel free to take a look around. Send an email to [roles@daniel-broderick.com](mailto:roles@daniel-broderick.com) 
+    Feel free to take a look around. Send an email to [roles@danb.ro](mailto:roles@danb.ro) 
     if you'd like to offer me a job; open to full-time, contract, or freelance opportunities.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER
-  
+
   # yes I tried to do this with yaml variables but it was too much of a pain
   js: >
     const urlMapping = {
-      "https://daniel-broderick.com/history/server-resources-monitor": "https://glances.daniel-broderick.com/",
-      "https://daniel-broderick.com/history/bioinformatics-file-converter": "https://bioconvert.daniel-broderick.com/",
-      "https://daniel-broderick.com/history/vault-application-pitch-page": "https://vaultqr-app.daniel-broderick.com",
-      "https://daniel-broderick.com/history/vault-qr-code-generator": "https://vaultqr-generate.daniel-broderick.com",
-      "https://daniel-broderick.com/history/coder-remote-dev-environments": "https://coder.daniel-broderick.com",
-      "https://daniel-broderick.com/history/torrent-streaming-server": "https://torrent-stream.daniel-broderick.com",
-      "https://daniel-broderick.com/history/fyxia-an-ai-powered-bug-checker-by-caleb-sacks" : "https://marketplace.visualstudio.com/items?itemName=fyxia.fyxia",
-      "https://daniel-broderick.com/history/fyxia-auth" : "https://auth.fyxia.dev/admin"
+      "https://danb.ro/history/server-resources-monitor": "https://glances.danb.ro/",
+      "https://danb.ro/history/bioinformatics-file-converter": "https://bioconvert.danb.ro/",
+      "https://danb.ro/history/vault-application-pitch-page": "https://vaultqr-app.danb.ro",
+      "https://danb.ro/history/vault-qr-code-generator": "https://vaultqr-generate.danb.ro",
+      "https://danb.ro/history/coder-remote-dev-environments": "https://coder.danb.ro",
+      "https://danb.ro/history/torrent-streaming-server": "https://torrent-stream.danb.ro",
+      "https://danb.ro/history/fyxia-an-ai-powered-bug-checker-by-caleb-sacks" : "https://marketplace.visualstudio.com/items?itemName=fyxia.fyxia",
+      "https://danb.ro/history/fyxia-auth" : "https://auth.fyxia.dev/admin"
     };
 
     setInterval( function(){
