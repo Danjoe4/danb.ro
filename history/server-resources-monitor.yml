@@ -1,7 +1,7 @@
 url: https://glances.danb.ro
-status: down
-code: 404
-responseTime: 475
-lastUpdated: 2025-03-07T23:01:29.429Z
+status: up
+code: 200
+responseTime: 758
+lastUpdated: 2025-03-08T01:20:50.189Z
 startTime: 2024-05-24T00:56:05.761Z
 generator: Upptime <https://github.com/upptime/upptime>
