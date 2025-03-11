@@ -6,7 +6,7 @@ sites:
   - name: Server Resources Monitor
     url: https://glances.danb.ro
   - name: Bioinformatics file converter
-    url: https://bioconvert.danb.ro
+    url: https://bioinf-file-convert-2.pages.dev/
   - name: Vault Application Pitch Page
     url: https://vaultqr-app.danb.ro
   - name: Vault QR Code Generator
@@ -45,7 +45,7 @@ status-website:
   js: >
     const urlMapping = {
       "https://danb.ro/history/server-resources-monitor": "https://glances.danb.ro/",
-      "https://danb.ro/history/bioinformatics-file-converter": "https://bioconvert.danb.ro/",
+      "https://danb.ro/history/bioinformatics-file-converter": "https://bioinf-file-convert-2.pages.dev/",
       "https://danb.ro/history/vault-application-pitch-page": "https://vaultqr-app.danb.ro",
       "https://danb.ro/history/vault-qr-code-generator": "https://vaultqr-generate.danb.ro",
       "https://danb.ro/history/coder-remote-dev-environments": "https://coder.danb.ro",
