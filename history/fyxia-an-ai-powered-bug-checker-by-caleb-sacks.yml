@@ -1,7 +1,7 @@
 url: https://bug.fyxia.dev/api/v1/health
-status: up
-code: 200
-responseTime: 458
-lastUpdated: 2025-03-20T23:01:20.278Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-03-21T20:44:39.554Z
 startTime: 2024-07-17T23:12:37.731Z
 generator: Upptime <https://github.com/upptime/upptime>
