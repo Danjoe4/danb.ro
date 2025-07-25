@@ -16,13 +16,13 @@ I'll fill this in later
 ---
 
 ### Vault Application Pitch Page  
-<https://vaultqr-app.danb.ro>  
+<https://vaultqr.danb.ro>  
 **Description:**  
 
 ---
 
 ### Vault QR Code Generator  
-<https://vaultqr-generate.danb.ro>  
+<https://vaultqrgen.danb.ro/>  
 **Description:**  
 
 ---
