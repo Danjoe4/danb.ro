@@ -1,5 +1,3 @@
-
-
 # danb.ro – Services & Projects
 I'll fill this in later
 
@@ -29,19 +27,19 @@ I'll fill this in later
 
 ---
 
-### Fyxia Bug Checker API Health  
+### Fyxia Bug Checker API Health  
 <https://bug.fyxia.dev/api/v1/health>  
 **Description:**  
 
 ---
 
-### Fyxia Auth Admin  
+### Fyxia Auth Admin  
 <https://auth.fyxia.dev/admin>  
 **Description:**  
 
 ---
 
-### Coder Remote Dev Environments  
+### Coder Remote Dev Environments  
 <https://coder.danb.ro>  
 **Description:**  
 
@@ -53,6 +51,6 @@ I'll fill this in later
 
 ---
 
-### Minecraft Server (TCP 25565)  
+### Minecraft Server (TCP 25565)  
 `minecraft.danb.ro`  
-**Description:**  
+**Description:**
