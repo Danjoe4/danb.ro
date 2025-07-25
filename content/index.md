@@ -1,7 +1,7 @@
 
 
 # <danb.ro> – My gamer corner
-This site gets synced every hour from my notes app. 
+This site gets synced every hour from my notes app with n8n.
 
 ---
 ## just launched my subtitles project
