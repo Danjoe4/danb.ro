@@ -2,56 +2,41 @@ name: Eleventy CI
 
 on:
   push:
-    branches: [main]          # n8n pushes here
-  workflow_dispatch:          # manual trigger
+    branches: [$default-branch]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20          # or 18
-
+          node-version: 20
       - name: Install deps
         run: npm ci --audit=false --fund=false
 
       - name: Build site
-        run: npm run build          # outputs to _site/
-
-      # ===== choose ONE of the deploy options below =====
-
-      # --- A: GitHub Pages --------------------------------
+        run: npm run build 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-      - name: Deploy to Pages
-        id: deploy
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-
-      # --- B: Cloudflare Pages ----------------------------
-      # - name: Publish to Cloudflare Pages
-      #   uses: cloudflare/pages-action@v1
-      #   with:
-      #     apiToken: ${{ secrets.CF_PAGES_TOKEN }}
-      #     accountId: ${{ secrets.CF_ACCOUNT_ID }}
-      #     projectName: danb-ro
-      #     directory: _site
-
-      # --- C: Netlify -------------------------------------
-      # - name: Deploy to Netlify
-      #   uses: nwtgck/actions-netlify@v2
-      #   with:
-      #     publish-dir: _site
-      #     production-branch: main
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     netlify-auth-token: ${{ secrets.NETLIFY_AUTH }}
-      #     site-id: ${{ secrets.NETLIFY_SITE_ID }}
-
