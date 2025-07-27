@@ -2,7 +2,7 @@ name: Eleventy CI
 
 on:
   push:
-    branches: [$default-branch]
+    branches: master
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: _public
 
   deploy:
     environment:
