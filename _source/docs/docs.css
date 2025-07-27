@@ -71,8 +71,8 @@
 			position: absolute;
 			inset-block-start: 0;
 			inset-inline-start: 0;
-			inline-size: 300rem;
-			block-size: 300rem;
+			inline-size: 150rem;
+			block-size: 150rem;
 			border-width: 0;
 			border-block-start-width: 10rem;
 			border-style: solid;
@@ -118,6 +118,56 @@
 			& > span {
 				color: var(--color-text);
 			}
+		}
+	}
+
+	/* Tree navigation with pure CSS lines */
+	.nav-tree {
+		/* Base styling for tree children containers */
+		.tree-children {
+			margin-left: 1.2em;
+			position: relative;
+			
+			/* Vertical line connecting all children in this level */
+			&::before {
+				content: "";
+				position: absolute;
+				left: -0.6em;
+				top: 0;
+				bottom: 0;
+				width: 1px;
+				background-color: var(--color-border);
+				opacity: 0.6;
+			}
+		}
+		
+		/* Tree items (both parent and child items) */
+		.tree-children .tree-item {
+			position: relative;
+			
+			/* Horizontal line connecting to the vertical line - aligned to top + fixed offset */
+			&::before {
+				content: "";
+				position: absolute;
+				left: -0.6em;
+				top: 1.25em;
+				width: 0.5em;
+				height: 1px;
+				background-color: var(--color-border);
+				opacity: 0.6;
+			}
+		}
+		
+		/* Hide vertical line below the last item at each level */
+		.tree-children .tree-item--last::after {
+			content: "";
+			position: absolute;
+			left: -0.6em;
+			top: 1.25em;
+			bottom: -100vh;
+			width: 1px;
+			background-color: var(--color-bg);
+			z-index: 2;
 		}
 	}
 }

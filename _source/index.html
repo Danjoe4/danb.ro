@@ -63,16 +63,11 @@ themes: ["default", "low-contrast", "high-contrast", "secondary"]
           >
             On this page
           </summary>
-          <ul class="unlisted font-size-sm font-weight-lg mt-sm">
+          <ul class="unlisted font-size-sm font-weight-lg mt-sm nav-tree">
             {% assign contentMarkdown = "CONTENT.md" | loadContentFilter %} {%
-            assign headers = contentMarkdown | extractHeaders %} {% for header
-            in headers %}
-            <li>
-              <a class="button --simple" href="#{{ header.slug }}"
-                >{{ header.title }}</a
-              >
-            </li>
-            {% endfor %}
+            assign headers = contentMarkdown | extractHeaders %} {% assign
+            headerTree = headers | buildHeaderTree %} {% render
+            "docs/header-tree.html", items: headerTree %}
           </ul>
         </details>
       </small-details>

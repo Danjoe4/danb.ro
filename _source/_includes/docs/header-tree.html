@@ -1,0 +1,16 @@
+{% comment %} Recursive template to render hierarchical header tree {%
+endcomment %} {% for item in items %} {% assign isLast = forloop.last %}
+<li
+  class="tree-item{% if isLast %} tree-item--last{% endif %}"
+  data-level="{{ item.level }}"
+>
+  <a class="button --simple tree-link" href="#{{ item.slug }}"
+    >{{ item.title }}</a
+  >
+  {% if item.children.size > 0 %}
+  <ul class="unlisted tree-children">
+    {% render "docs/header-tree.html", items: item.children %}
+  </ul>
+  {% endif %}
+</li>
+{% endfor %}

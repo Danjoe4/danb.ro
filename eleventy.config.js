@@ -66,6 +66,41 @@ export default async function (eleventyConfig) {
     return headers;
   });
 
+  // Build hierarchical tree structure from flat headers array
+  eleventyConfig.addFilter("buildHeaderTree", function (headers) {
+    if (!headers || headers.length === 0) return [];
+
+    const tree = [];
+    const stack = [];
+
+    headers.forEach((header) => {
+      const item = {
+        ...header,
+        children: [],
+      };
+
+      // Find the correct parent level
+      while (
+        stack.length > 0 &&
+        stack[stack.length - 1].level >= header.level
+      ) {
+        stack.pop();
+      }
+
+      if (stack.length === 0) {
+        // Top level item
+        tree.push(item);
+      } else {
+        // Child item
+        stack[stack.length - 1].children.push(item);
+      }
+
+      stack.push(item);
+    });
+
+    return tree;
+  });
+
   /* --------------------------------------------------------------------------
   MarkdownIt settings
   -------------------------------------------------------------------------- */
