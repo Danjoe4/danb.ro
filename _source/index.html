@@ -1,0 +1,76 @@
+---
+title: danb.ro - My gamer corner
+description: My personal projects and work
+layout: base.html
+stylesheet: /docs/docs.css
+modes: ["system", "dark", "light"]
+themes: ["default", "low-contrast", "high-contrast", "primary", "secondary"]
+---
+
+<header id="header" class="grid">
+  <nav class="flex no-wrap justify-between align-items-center">
+    <a
+      class="font-size-xl font-size-lg@md font-weight-xxl uppercase line-height-flush undecorated button --simple --primary pt-0 pb-0 pb-xs@md"
+      href="/"
+    >
+      {% render "svg/grease.svg" %}
+      <span class="sr-only@sm">danb.ro</span>
+    </a>
+    <div class="inline-flex gap-xs shrink align-items-center">
+      <ul
+        class="docs-nav-group unlisted inline-flex gap-xs shrink align-items-center"
+      >
+        <li>
+          <a
+            href="https://github.com/Danjoe4/danb.ro"
+            class="button --primary shadow-md"
+            >On GitHub</a
+          >
+        </li>
+      </ul>
+      {% render "docs/theme-picker.html" modes: modes, themes: themes %}
+    </div>
+  </nav>
+</header>
+
+<main class="grid">
+  <h1 class="hero">Daniel Broderick's corner of the Internet</h1>
+  <random-shapes
+    class="grease-marks bleed"
+    quantity="10"
+    jitter="20"
+  ></random-shapes>
+
+  <section id="docs" class="docs-layout">
+    <nav class="sticky@md top-md mb-lg">
+      <small-details>
+        <details>
+          <summary
+            class="font-size-sm font-weight-md uppercase letter-spacing-lg"
+          >
+            On this page
+          </summary>
+          <ul class="unlisted font-size-sm font-weight-lg mt-sm">
+            {% assign contentMarkdown = "CONTENT.md" | loadContentFilter %} {%
+            assign headers = contentMarkdown | extractHeaders %} {% for header
+            in headers %}
+            <li>
+              <a class="button --simple" href="#{{ header.slug }}"
+                >{{ header.title }}</a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+        </details>
+      </small-details>
+    </nav>
+    <article class="line-length-lg">
+      {% assign contentMarkdown = "CONTENT.md" | loadContentFilter %} {{
+      contentMarkdown | markdownify }}
+    </article>
+  </section>
+</main>
+
+<footer class="grid">
+  <p class="font-size-sm">By <a href="https://danb.ro">Dan</a>. Have fun.</p>
+</footer>

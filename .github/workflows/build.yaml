@@ -22,9 +22,8 @@ jobs:
           node-version: 20
       - name: Install deps
         run: npm ci --audit=false --fund=false
-
       - name: Build site
-        run: npm run build 
+        run: publish:prod
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

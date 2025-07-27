@@ -1,9 +1,7 @@
-
-
-# <danb.ro> – My gamer corner
+# danb.ro – My gamer corner
 This site gets synced every hour from my notes app. 
 
----
+
 ## just launched my subtitles project
 <Clipzy.app>
 It lets you search any show for dialogue 
@@ -51,5 +49,4 @@ This is offline apparently
 ### Minecraft Server (TCP 25565)  
 `minecraft.danb.ro`  
 **Description:**
-We  
-
+We

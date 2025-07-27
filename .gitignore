@@ -1,2 +1,4 @@
-_site/
-node_modules/
+.cache/
+node_modules
+_public/
+.DS_Store
