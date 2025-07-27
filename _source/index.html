@@ -20,6 +20,11 @@ themes: ["default", "low-contrast", "high-contrast", "secondary"]
         class="docs-nav-group unlisted inline-flex gap-xs shrink align-items-center"
       >
         <li>
+          <a id="email-link" class="button --primary shadow-md" href="#">
+            Email
+          </a>
+        </li>
+        <li>
           <a
             href="https://www.linkedin.com/in/d-brod/"
             class="button --primary shadow-md"
@@ -42,11 +47,12 @@ themes: ["default", "low-contrast", "high-contrast", "secondary"]
 <main class="grid">
   <h1 class="hero">Daniel Broderick's corner of the Internet</h1>
   <p class="font-size-lg color-text-subtle text-center mb-xl">
-    Honestly I was just psyched to have gotten a 4 letter domain and I needed to
-    show it off. The contents below are automatically synced with single note in
-    my notes app because if it were even a tiny bit inconvenient I would never
-    update it. I'll list my projects and maybe braindump here a bit. Stuff
-    should be in roughly cronological order.
+    Keeping my personal website up to date has always been a pain, so the
+    contents below are automatically synced with single note in my notes app. If
+    it were even a tiny bit inconvenient I would never update it. I'll list my
+    projects and maybe braindump here a bit. Stuff should be in roughly
+    cronological order. Message me on LinkedIn or send me an email if you want
+    to chat.
   </p>
   <random-shapes
     class="grease-marks bleed"
@@ -85,3 +91,20 @@ themes: ["default", "low-contrast", "high-contrast", "secondary"]
     <a href="https://danb.ro#header">top</a>?
   </p>
 </footer>
+
+<script>
+  (() => {
+    const user = "me";
+    const host = "danb.ro";
+    const link = document.getElementById("email-link");
+    link.addEventListener(
+      "click",
+      (e) => {
+        const addr = `${user}@${host}`;
+        link.href = `mailto:${addr}`;
+        link.textContent = addr;
+      },
+      { once: true }
+    );
+  })();
+</script>
