@@ -23,7 +23,7 @@ jobs:
       - name: Install deps
         run: npm ci --audit=false --fund=false
       - name: Build site
-        run: publish:prod
+        run: npm run publish:prod
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
