@@ -6,14 +6,14 @@ This site, first of all. Its been up since July 26th and it's definitely not fin
 lets you search any show for dialogue. I used <https://opensubtitles.org> for the dataset. Ideally I could make it into a vector search across *all* subtitles for every movie/show but that would require some serious hardware costing north of $10,000. If I aggressively clean my dataset and do some clever optimizations I could maybe do it on sane hardware.
 
 # on the utility of personal websites 
-The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to not a technical feat anymore
+The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to not a technical feat anymore. 
 
 This site gets synced every hour from my notes app with an n8n workflow.
 
 
 ### CartoonFlux
 <cartoonflux.com>
-A full on saas MVP with payments, accounts, everything. It flopped but good way to get my feet wet with AI image gen. I did NOT enjoy the training process. Technically boring and very hit/miss.
+A full on saas MVP with payments, accounts, everything. Ultimately it flopped. It's simply outclassed by civitai. Still was good way to get my feet wet with AI image gen. I did NOT enjoy the training process. Technically boring and very hit/miss.
 
 ---
 
