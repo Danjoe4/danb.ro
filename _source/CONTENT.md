@@ -1,14 +1,14 @@
-# danb.ro – My gamer corner
-This site gets synced every hour from my notes app. 
 
 
-## just launched my subtitles project
-<Clipzy.app>
-It lets you search any show for dialogue 
+# Stuff I'm working on 
 
+<https://clipzy.app>
+lets you search any show for dialogue. I used <https://opensubtitles.org> for the dataset. Ideally I could make it into a vector search across *all* subtitles for every movie/show but that would require some serious hardware costing north of $10,000. If I aggressively clean my dataset and do some clever optimizations I could maybe do it on sane hardware.
 
-## working on 
-a secret hardware project 
+# on the utility of personal websites 
+The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to not a technical feat anymore
+
+This site gets synced every hour from my notes app with an n8n workflow.
 
 
 ### CartoonFlux
@@ -44,10 +44,10 @@ I just host this for my friend Caleb
 **Description:**  
 This is offline apparently
 
+---
 
 ### Minecraft Server (TCP 25565)  
 `minecraft.danb.ro`  
 **Description:**
-We
+We  
 
-## big head
