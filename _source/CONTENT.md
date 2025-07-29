@@ -6,11 +6,9 @@ This site, first of all. Its been up since July 26th and it's definitely not fin
 lets you search any show for dialogue. I used <https://opensubtitles.org> for the dataset. Ideally I could make it into a vector search across *all* subtitles for every movie/show but that would require some serious hardware costing north of $10,000. If I aggressively clean my dataset and do some clever optimizations I could maybe do it on sane hardware.
 
 # on the utility of personal websites 
-The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to not a technical feat anymore. 
+The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to anyone - not a technical feat. The reason I made this site was as an exercise in just how convenient I could make the publishing process. It gets synced every hour from my notes app with an n8n workflow, which actually more convenient than updating LinkedIn. Also, I needed to show off my 4 letter domain name.
 
-This site gets synced every hour from my notes app with an n8n workflow.
-
-# Link dumps and a old projects 
+# Link dumps and old projects 
 ## CartoonFlux
 <cartoonflux.com>
 A full on saas MVP with payments, accounts, everything. Ultimately it flopped. It's simply outclassed by civitai. Still was good way to get my feet wet with AI image gen. I did NOT enjoy the training process. Technically boring and very hit/miss.
@@ -52,72 +50,28 @@ I use Linux Mint on my desktop and Ubuntu LTS for my remote machines. I like the
 
 I used windows my whole life and WSL for 2-3 years while I was learning programming in college. I ultimately made the plunge into linux because:
 - Windows has extremely poor interoperability between the terminal and its native file system. WSL gives you a working terminal but transferring files between it and the native os is still tedious 
-- Networking is very messy on WSL
+- Networking is messy on WSL
 - WSL has stability issues and obscure bugs
 - Windows is declining in quality while Linux is getting better
 - Telemetry and privacy issues 
 - Windows is so non-performant; my PC fans are roaring for basic tasks and I need all 40gb of my RAM
 
-## I'm *NOT* considering Arch because
+## Arch is silly because
 - I rarely require bleeding edge packages 
-- For the once a year I do require a bleeding edge package, I can install from
+- For the once a year I do require a bleeding edge package, I can install from source
 - Bleeding edge, frequent updates are problematic for servers and for a stable desktop experience
 - Sticking to debian distros allows me to develop the most broadly applicable skillset; why learn 2 package managers
 - I believe in a good workflow, but customizing everything to be perfect has dimishing returns on productivity
 
-# Checklist for Linux Mint
-
-### Terminal config, tools, and common dependencies
-
-1. Install [kitty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md) because it's fast and I like its default looks and config.
-   
-   Remember to use the x11/wayland specific flags. It also works very well with tmux (it has to, it has no tabs) which I like to use anyway for persistent remote sessions.
-   
-   - `alias ssh="TERM=xterm-256color ssh"` is a good idea because TERM=alacritty isn't super compatible (yet, hopefully this changes). 
-
-2. `apt install tmux` 
-
-3. Install a [Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/0xProto.zip) because it's pretty
-
-4. Install Rust/cargo using rustup
-
-5. Install latest python version
-
-6. ripgrep
-
-7. install neovim
-
-8. customize neovim `git clone https://github.com/Danjoe4/kickstart.nvim ~/.config/nvim`
-
-### GUI tools
-
-1. VSCode 
-2. Brave browser
-3. CopyQ, gives clipboard history
-4.  Typora, a simple markdown editor. I like having a dedicated markdown/text editor to use as a todo list and scratchpad.  Obsidian/vscode/nvim/notion etc all feel too "involved". I want my notes app to be unobtrusive. 
-5. Kde connect
-6. Simple Notes
-      
-    
-      
-
-### Docker tools
-
-1. Install docker
-2. echo "alias lzd='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v ~/.config:/.config/jesseduffield/lazydocker lazyteam/lazydocker'" >> ~/.bashrc; source ~/.bashrc; 
-3. Add your user to the docker group
-4. Install compose plugin as well
-5. **Note*: Install docker-ce and don't use the package manager
-
-### Browser
-
-1. Brave
-2. add paywall bypass: https://github.com/iamadamdev/bypass-paywalls-chrome?tab=readme-ov-file
-3. add bitwarden extension
-
-
-### Other GUI apps
-
-- Discord, Slack, ThunderBird, various Crypto wallets, Haveno, LibreOffice Suite, VirtualBox, okular
+## Setting it up
+1. Install [kitty](https://sw.kovidgoyal.net/kitty/binary/). It's crazy how gnome-terminal doesn't support scrollback while selecting stuff for a copy. Ridiculous. Kitty also makes syncing its clipboard with the os clipboard easy.
+2. CopyQ, this should be a default program IMO
+3. install neovim, [Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/0xProto.zip), and NVChad
+4. VSCode. Yes I use both VSCode and Neovim. I think they complement each other.
+5. Brave browser because the built in ad blocker is fantastic. Add Bitwarden and [paywall bypass](https://github.com/iamadamdev/bypass-paywalls-chrome?tab=readme-ov-file)
+6. Kde connect so I can send stuff between my phone and pc.
+7. Simple Notes
+8. docker, docker compose, and [lazydocker](https://github.com/jesseduffield/lazydocker#installation) 
+9. Various GUI apps like Discord, Slack, PGAdmin 
 
 
