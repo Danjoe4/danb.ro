@@ -5,6 +5,9 @@ This site, first of all. Its been up since July 26th and it's definitely not fin
 <https://clipzy.app>
 lets you search any show for dialogue. I used <https://opensubtitles.org> for the dataset. Ideally I could make it into a vector search across *all* subtitles for every movie/show but that would require some serious hardware costing north of $10,000. If I aggressively clean my dataset and do some clever optimizations I could maybe do it on sane hardware.
 
+I'm also creating a dive computer using an android phone
+
+
 # on the utility of personal websites 
 The internet is firmly in the era of platforms. Frankly, everything on this page could be replicated in my LinkedIn in a more universal, searchable format. The "omg you have a website" 2005 era has passed; it's accessible to anyone - not a technical feat. The reason I made this site was as an exercise in just how convenient I could make the publishing process. It gets synced every hour from my notes app with an n8n workflow, which actually more convenient than updating LinkedIn. Also, I needed to show off my 4 letter domain name.
 
