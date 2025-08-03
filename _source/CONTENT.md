@@ -26,7 +26,7 @@ I made this in college with my friend Ethan Lutz. We even pitched it to an inves
 # Quick ones 
 ## Breakdown of biblical foods
 Easy oneshot with Chatgpt o3, heres the prompt: "Provide a python script to download and search the king james bible for all mentions of food, then take the total occurrences of each item and divide it by the total mentions to produce a percentage. Then render a piechart for each item. You may group similar items/categories, for example, apple, pear, fruit would all be the same category"
-![image](/home/danjoe4/static/food_piechart.png)
+![image](https://ibb.co/xtbV2cdW)
 
 # Stuff I host
 ## Fyxia   
