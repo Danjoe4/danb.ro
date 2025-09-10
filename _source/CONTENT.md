@@ -1,7 +1,7 @@
 
 
 # Stuff I'm working on 
-This site, first of all. Its been up since July 26th so pay no mind to the incomplete sentences and weird formatting it'll get a bit more polished
+This site, first of all. I'm turning my notes > site automation pipeline into a SaaS
 <https://clipzy.app>
 lets you search any show for dialogue. I used <https://opensubtitles.org> for the dataset. Ideally I could make it into a vector search across *all* subtitles for every movie/show but that would require some serious hardware costing north of $10,000. If I aggressively clean my dataset and do some clever optimizations I could maybe do it on sane hardware.
 
