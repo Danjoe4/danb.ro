@@ -76,10 +76,12 @@ I used windows my whole life and WSL for 2-3 years while I was learning programm
 ## Setting it up
 1. Install [kitty](https://sw.kovidgoyal.net/kitty/binary/). It's crazy how gnome-terminal doesn't support scrollback while selecting stuff for a copy. Ridiculous. Kitty also makes syncing its clipboard with the os clipboard easy.
 2. CopyQ, this should be a default program IMO
-3. install neovim, [Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/0xProto.zip), and NVChad
+3. Install neovim, [Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/0xProto.zip), and NVChad
 4. VSCode. Yes I use both VSCode and Neovim. I think they complement each other.
 5. Brave browser because the built in ad blocker is fantastic. Add Bitwarden and [paywall bypass](https://github.com/iamadamdev/bypass-paywalls-chrome?tab=readme-ov-file)
 6. Kde connect so I can send stuff between my phone and pc.
 7. Simple Notes
 8. docker, docker compose, and [lazydocker](https://github.com/jesseduffield/lazydocker#installation) 
 9. Various GUI apps like Discord, Slack, PGAdmin 
+
+hi
